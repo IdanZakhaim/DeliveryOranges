@@ -12,7 +12,7 @@ public class OrangePicker extends Thread{
             }catch (InterruptedException e){
                 e.printStackTrace();
             }
-            basket.fillBasket();//לנסות לשים את זה בתוך הtry
+            basket.fillBasket();
         }
     }
 

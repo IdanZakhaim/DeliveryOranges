@@ -9,7 +9,7 @@ public class DeliveryPerson extends Thread {
     public void run() {
         while (true) {
             try {
-                synchronized (basket) {//לבדוק על הסנכרון הזה למה דווקא סל
+                synchronized (basket) {
                     System.out.println("Waiting for full basket");
                     basket.wait();
                 }
